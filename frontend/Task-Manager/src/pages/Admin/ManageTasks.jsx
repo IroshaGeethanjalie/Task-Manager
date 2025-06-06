@@ -8,4 +8,4 @@ const ManageTasks = () => {
   )
 }
 
-export default ManageTasks
+export default ManageTasks;

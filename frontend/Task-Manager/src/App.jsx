@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -35,7 +34,7 @@ const App = () => {
 
         {/* User Routes */}
         <Route element={<PrivateRoute allowedRoles={["user"]} />}>
-          <Route path="/user/dasboard" element={<UserDashboard />} />
+          <Route path="/user/dashboard" element={<UserDashboard />} />
           <Route path="/user/my-tasks" element={<MyTasks />} />
           <Route path="/user/task-details/:id" element={<ViewTasksDetail />} />
         </Route>

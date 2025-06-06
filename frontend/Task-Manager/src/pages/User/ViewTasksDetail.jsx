@@ -8,4 +8,4 @@ const ViewTaksDetail = () => {
   )
 }
 
-export default ViewTaksDetail
+export default ViewTaksDetail;
